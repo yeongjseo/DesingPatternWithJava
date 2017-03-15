@@ -1,5 +1,8 @@
 package behavioral.observer.example;
 
+/*
+ * Observer
+ */
 public class Investor implements AbstractInvestor {
 	private String name;
 	

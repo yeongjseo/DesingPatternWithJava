@@ -6,6 +6,7 @@ public class Client {
 		AbstractClass a1 = new ConcreteClassA();
 		a1.templateMethod();
 
+		System.out.println();
 		AbstractClass a2 = new ConcreteClassB();
 		a2.templateMethod();
 	}

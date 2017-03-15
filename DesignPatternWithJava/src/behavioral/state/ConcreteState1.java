@@ -15,6 +15,7 @@ public class ConcreteState1 extends State {
 	
 	public void handle(Context context, String message) {
 		System.out.println(getName() + " handles " + message);
+		
 		context.setState(new ConcreteState2("state2"));
 	}
 }

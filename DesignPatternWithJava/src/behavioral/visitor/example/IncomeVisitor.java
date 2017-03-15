@@ -1,7 +1,7 @@
 package behavioral.visitor.example;
 
 /*
- * 
+ * ConcreteVisitor 
  */
 public class IncomeVisitor implements Visitor {
 

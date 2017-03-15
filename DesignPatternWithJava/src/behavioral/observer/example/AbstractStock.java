@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /*
- * One of more Observers are interested in the state of a Subject and 
- * register their interest with the Subject by attaching themselves.
- * 
+ * Abstract Subject 
  */
 public abstract class AbstractStock {
 	private ArrayList<AbstractInvestor> observers = new ArrayList<>();
@@ -28,12 +26,6 @@ public abstract class AbstractStock {
 		observers.remove(observer);
 	}
 	
-	/*
-	 * When something changes in our Subject 
-	 * that the Observer may be interested in, 
-	 * a notify message is sent, 
-	 * which calls the update method in each Observer. 
-	 */
 	public void notifyObserver() {
 		Iterator<AbstractInvestor> it = observers.iterator();      
 		while (it.hasNext()) {                 

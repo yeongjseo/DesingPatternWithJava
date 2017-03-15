@@ -1,11 +1,7 @@
 package behavioral.state.example;
 
 /*
- * The ConcreteState implements it's own implementation for the request. 
- * 
- * When a Context changes state, 
- * what really happens is that we have a different ConcreteState associated with it.
- * 
+ * ConcreteState 
  */
 public class SilverState extends State {
 

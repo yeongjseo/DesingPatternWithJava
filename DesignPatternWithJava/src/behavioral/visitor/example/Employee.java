@@ -1,7 +1,7 @@
 package behavioral.visitor.example;
 
 /*
- *  
+ * Acceptor  
  */
 public abstract class Employee {
 	private String name;

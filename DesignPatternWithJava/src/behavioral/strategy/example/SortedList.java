@@ -4,19 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Context is composed of a Strategy. 
- * The context could be anything that would require changing behaviours 
- * 
- * - a class that provides sorting functionality perhaps.
- * 
+ * Context
  */
 public class SortedList {
 	private Sort sort;
 	private List<String> list = new ArrayList<>();
 	
 	
-	public SortedList(Sort strategy) {
-		this.sort = strategy;
+	public SortedList(Sort sort) {
+		this.sort = sort;
+		
+	}
+	
+	public void setSort(Sort sort) {
+		this.sort = sort;
 		
 	}
 	
@@ -25,7 +26,7 @@ public class SortedList {
 	}
 	
 	public void sort() {
-		sort.sort(list);
+		list = sort.sort(list);
 	}
 
 	@Override
@@ -38,6 +39,4 @@ public class SortedList {
 		sb.append("]");
 		return sb.toString();
 	}
-
-	
 }

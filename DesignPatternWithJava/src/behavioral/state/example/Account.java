@@ -3,11 +3,7 @@ package behavioral.state.example;
 import java.text.DecimalFormat;
 
 /*
- * The Context can have a number of internal States,
- *  
- * whenever the request() method is called on the Context, 
- * the message is delegated to the State to handle.
- * 
+ * Context 
  */
 public class Account {
 	private String name;

@@ -1,9 +1,7 @@
 package behavioral.state.example;
 
 /*
- * The State interface defines a common interface for all concrete states, 
- * encapsulating all behaviour associated with a particular state. 
- * 
+ * State 
  */
 public abstract class State {
 	protected Account account;

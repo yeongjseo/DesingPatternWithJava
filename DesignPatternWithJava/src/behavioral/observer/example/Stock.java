@@ -1,5 +1,8 @@
 package behavioral.observer.example;
 
+/*
+ * Subject
+ */
 public class Stock extends AbstractStock {
 	private double price;
 	

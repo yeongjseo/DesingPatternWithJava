@@ -1,7 +1,7 @@
 package behavioral.visitor.example;
 
 /*
- * ConcreteAcceptor will implement this accept method.
+ * ConcreteAcceptor
  */
 public class Director extends Employee {
 	

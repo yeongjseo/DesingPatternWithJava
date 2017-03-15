@@ -1,5 +1,8 @@
 package behavioral.state.example;
 
+/*
+ * Client
+ */
 public class Client {
     public static void main(String[] args) {
     	Account account = new Account("account1");

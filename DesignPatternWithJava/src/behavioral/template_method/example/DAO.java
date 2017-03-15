@@ -1,6 +1,7 @@
 package behavioral.template_method.example;
 
 /*
+ * AbstractClass
  * Data Access Object
  */
 public abstract class DAO {
