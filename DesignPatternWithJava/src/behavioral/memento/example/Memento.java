@@ -1,24 +1,36 @@
 package behavioral.memento.example;
 
 /*
- *  The Memento holds the information about the Originator's state, 
- *  and cannot be modified by the Caretaker.
- * 
+ *  Memento
  */
 public class Memento {
-	String state;
+	private String name;
+	private String phone;
+	private double budget;
 	
-	public Memento(String state) {
+	public Memento(String name, String phone, double budget) {
 		super();
-		this.state = state;
+		this.name = name;
+		this.phone = phone;
+		this.budget = budget;
 	}
-
-	public String getState() {
-		return state;
+	public String getName() {
+		return name;
 	}
-
-	public void setState(String state) {
-		this.state = state;
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public double getBudget() {
+		return budget;
+	}
+	public void setBudget(double budget) {
+		this.budget = budget;
 	}
 	
 }

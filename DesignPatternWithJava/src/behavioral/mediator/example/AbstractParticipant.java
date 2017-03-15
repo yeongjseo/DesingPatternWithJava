@@ -1,7 +1,7 @@
 package behavioral.mediator.example;
 
 /*
- * 
+ * Colleague
  */
 public abstract class AbstractParticipant {
 	private String name;

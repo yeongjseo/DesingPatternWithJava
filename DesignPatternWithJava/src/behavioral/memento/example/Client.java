@@ -2,15 +2,18 @@ package behavioral.memento.example;
 
 public class Client {
     public static void main(String[] args) {
-        Originator originator = new Originator();
-        originator.setState("stateA");
+        SalesPerson person = new SalesPerson("Seo", "010-555-5555", 1000.0);
+        System.out.println(person);
         
-        Memento memento = originator.createMemento();
+        Memento memento = person.saveMemento();
         
-        originator.setState("stateB");
+        person.setName("Kim");
+        person.setPhone("010-444-4444");
+        person.setBudget(2000.0);
         
-        originator.setMemento(memento);
+        System.out.println(person);
+        person.restoreMemento(memento);
         
-        System.out.println("state is " + originator.getState());
+        System.out.println(person);
     }
 }

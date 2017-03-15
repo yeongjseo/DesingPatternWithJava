@@ -1,8 +1,7 @@
 package behavioral.mediator.example;
 
 /*
- *  The Mediator defines the interface for communication
- *  between Colleague objects. 
+ *  Mediator 
  */
 public interface AbstractChatroom {
 	public void addParticipant(AbstractParticipant participant);

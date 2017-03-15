@@ -1,8 +1,7 @@
 package behavioral.mediator.example;
 
 /*
- * The ConcreteColleague communicates with other colleagues 
- * through the mediator.
+ * The ConcreteColleague
  */
 public class Participant extends AbstractParticipant {
 	

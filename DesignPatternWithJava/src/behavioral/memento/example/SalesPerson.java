@@ -1,27 +1,58 @@
 package behavioral.memento.example;
 
 /*
- * Originator is the object 
- * that knows how to save itself: 
- * 
- * the class that you want to make stateful.
+ * Originator
  */
-public class Originator {
-	String state;
+public class SalesPerson {
+	private String name;
+	private String phone;
+	private double budget;
 	
-	void setMemento(Memento memento) {
-		state = memento.getState();
-	}
-	
-	Memento createMemento() {
-		return new Memento(state);
+	public SalesPerson(String name, String phone, double budget) {
+		super();
+		this.name = name;
+		this.phone = phone;
+		this.budget = budget;
 	}
 
-	public String getState() {
-		return state;
+	void restoreMemento(Memento memento) {
+		name = memento.getName();
+		phone = memento.getPhone();
+		budget = memento.getBudget();
+		
+	}
+	
+	Memento saveMemento() {
+		return new Memento(name, phone, budget);
 	}
 
-	public void setState(String state) {
-		this.state = state;
+	public String getName() {
+		return name;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public double getBudget() {
+		return budget;
+	}
+
+	public void setBudget(double budget) {
+		this.budget = budget;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("[name=%s, phone=%s, budget=%f]", name, phone, budget);
+	}
+
 }
