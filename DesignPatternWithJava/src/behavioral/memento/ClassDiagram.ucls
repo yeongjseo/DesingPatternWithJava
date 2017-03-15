@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="behavioral.memento.Client" project="DesignPattern" 
-    file="/DesignPattern/src/behavioral/memento/Client.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="182" y="305"/>    
+  <class id="1" language="java" name="behavioral.memento.Memento" project="DesignPatternWithJava" 
+    file="/DesignPatternWithJava/src/behavioral/memento/Memento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="415" y="374"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="behavioral.memento.Memento" project="DesignPattern" 
-    file="/DesignPattern/src/behavioral/memento/Memento.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="603" y="303"/>    
+  <class id="2" language="java" name="behavioral.memento.Client" project="DesignPatternWithJava" 
+    file="/DesignPatternWithJava/src/behavioral/memento/Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="191" y="160"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="behavioral.memento.Originator" project="DesignPattern" 
-    file="/DesignPattern/src/behavioral/memento/Originator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="378" y="302"/>    
+  <class id="3" language="java" name="behavioral.memento.Originator" project="DesignPatternWithJava" 
+    file="/DesignPatternWithJava/src/behavioral/memento/Originator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="417" y="160"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,16 +30,15 @@
   </class>  
   <dependency id="4">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <dependency id="5">    
-    <bendpoint x="181" y="166"/>    
-    <bendpoint x="601" y="168"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
+    <bendpoint x="191" y="375"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <dependency id="6">    
-    <end type="SOURCE" refId="1"/>    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
