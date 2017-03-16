@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * The Decorator has a reference to a Component, 
- * 
+ * Decorator 
  */
 public class Borrowable extends Item {
 	private Item item; 

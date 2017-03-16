@@ -24,7 +24,8 @@ public class ConcreteFlyweight implements Flyweight {
 	 * 
 	 */
 	public void operation(String extrinsic) {
-		System.out.println(intrinsic + ": " + extrinsic);
+		System.out.println("intrinsic data: " + intrinsic);
+		System.out.println("extrinsic data: " + extrinsic);
 	}
 	
 	public String getIntrinsic() {

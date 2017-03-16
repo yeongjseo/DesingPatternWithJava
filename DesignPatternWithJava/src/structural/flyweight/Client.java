@@ -5,7 +5,6 @@ public class Client {
 		FlyweightFactory factory = new FlyweightFactory();
 		Flyweight flyweight = factory.getFlyweight("intrinsic1");
 		flyweight.operation("extrinsic1");
-
 	}
 }
 

@@ -1,5 +1,8 @@
 package structural.facade.example;
 
+/*
+ * Facade
+ */
 public class Mortgage {
 	private String name;
 	private Bank bank = new Bank();

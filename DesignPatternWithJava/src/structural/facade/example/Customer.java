@@ -1,5 +1,8 @@
 package structural.facade.example;
 
+/*
+ * Data
+ */
 public class Customer {
 	String name;
 	int saving;
@@ -37,7 +40,4 @@ public class Customer {
 	public void setCredit(int credit) {
 		this.credit = credit;
 	}
-
-	
-
 }

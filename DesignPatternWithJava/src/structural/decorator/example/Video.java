@@ -1,7 +1,7 @@
 package structural.decorator.example;
 
 /*
- * 
+ * ConcreteComponent 
  */
 public class Video extends Item {
 	private String director;

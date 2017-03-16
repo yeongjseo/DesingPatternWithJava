@@ -9,7 +9,6 @@ public class Client {
 		System.out.println();
 		System.out.println("Facade does B");
 		facade.doB();
-		
 	}
 }
 

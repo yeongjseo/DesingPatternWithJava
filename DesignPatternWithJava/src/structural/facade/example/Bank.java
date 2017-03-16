@@ -1,5 +1,8 @@
 package structural.facade.example;
 
+/*
+ * Subsystem
+ */
 public class Bank {
 
 	public boolean hasSufficientSavings(Customer customer, int amount) {

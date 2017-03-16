@@ -1,7 +1,7 @@
 package structural.decorator.example;
 
 /*
- * 
+ * ConcreteComponent 
  */
 public class Book extends Item {
 	private String author;

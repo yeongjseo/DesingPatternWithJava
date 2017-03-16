@@ -1,7 +1,7 @@
 package structural.decorator.example;
 
 /*
- * 
+ * Component
  */
 public abstract class Item {
 	protected int numCopies;

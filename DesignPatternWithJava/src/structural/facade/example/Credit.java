@@ -1,5 +1,8 @@
 package structural.facade.example;
 
+/*
+ * Subsystem
+ */
 public class Credit {
 	
 	public boolean hasGoodCredit(Customer customer) {
