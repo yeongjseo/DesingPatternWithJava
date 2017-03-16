@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+
+/*
+ * Product
+ */
 public class Vehicle {
 	protected String type;
 	protected Map<String, String> parts = new HashMap<>();

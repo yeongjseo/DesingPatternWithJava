@@ -1,7 +1,7 @@
 package creational.builder.example;
 
 /*
- *  
+ * ConcreteBuilder  
  */
 public class ScooterBuilder extends VehicleBuilder {
 	

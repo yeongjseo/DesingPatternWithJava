@@ -1,11 +1,7 @@
 package creational.abstract_factory.example;
 
 /*
- * AbstractProductA and AbstractProductB are interfaces 
- * for the different types of product. 
- * 
- * Each factory will create one of each of these AbstractProducts. 
- * 
+ * AbstractProduct
  */
 public interface CellPhone {
 	public void use();

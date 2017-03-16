@@ -1,9 +1,7 @@
 package creational.abstract_factory.example;
 
 /*
- * ConcreteFactory1 and ConcreteFactory2 have both implemented this interface here, 
- * creating two seperate families of product.
- * 
+ * ConcreteFactory
  */
 public class SamsungFactory implements Factory {
 

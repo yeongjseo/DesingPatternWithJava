@@ -1,7 +1,7 @@
 package creational.builder.example;
 
 /*
- * The Builder provides an interface for creating the parts that make up a Product,
+ * Builder
  */
 public abstract class VehicleBuilder {
 	

@@ -1,7 +1,7 @@
 package creational.builder.example;
 
 /*
- * The Director constructs the object through the Builder's interface. 
+ * Director 
  */
 public class Shop {
     
