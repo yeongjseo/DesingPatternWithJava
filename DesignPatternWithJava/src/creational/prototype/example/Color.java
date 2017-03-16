@@ -1,6 +1,8 @@
 package creational.prototype.example;
 
-// Concrete Prototypes
+/*
+ * ConcretePrototype
+ */
 public class Color extends ColorPrototype {
 	protected int red;
 	protected int green;
@@ -18,6 +20,5 @@ public class Color extends ColorPrototype {
 	public String toString() {
 		return String.format("[R:%d, G:%d, B:%d]", red, green, blue);
 	}
-
 }
 

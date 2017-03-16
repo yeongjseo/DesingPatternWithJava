@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- *
+ * Factory
  */
 public abstract class Document {
 	protected List<Page> pages = new ArrayList<>();

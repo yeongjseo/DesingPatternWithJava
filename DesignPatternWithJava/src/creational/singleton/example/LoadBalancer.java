@@ -5,13 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 /*
- * The 'Singleton' class
- * 
- * Singleton pattern as a LoadBalancing object. 
- * Only a single instance (the singleton) of the class can be created 
- * because servers may dynamically come on- or off-line 
- * and every request must go throught the one object 
- * that has knowledge about the state of the (web) farm.
+ * Singleton
  * 
  */
 public class LoadBalancer {    

@@ -1,8 +1,7 @@
 package structural.adapter.example;
 
 /*
- * 
- * 
+ * Adaptee 
  */
 public class ChemicalData {
 	public double getMeltingPoint(String compound) {

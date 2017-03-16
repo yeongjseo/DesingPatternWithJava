@@ -1,7 +1,7 @@
 package structural.adapter.example;
 
 /*
- * 
+ * ConcreteAdapter 
  */
 public class RichCompound extends Compound {
 	ChemicalData data;
@@ -23,6 +23,4 @@ public class RichCompound extends Compound {
     	System.out.println("  Melting Point: " + meltingPoint);
     	System.out.println("  Boiling Point: " + boilingPoint);
     }
-    
-
 }

@@ -1,9 +1,7 @@
 package structural.composite.example;
 
 /*
- * The Client simply uses the Component interface 
- * to manipulate the objects.
- * 
+ * Client
  */
 public class Client {
 	public static void main(String[] args) {

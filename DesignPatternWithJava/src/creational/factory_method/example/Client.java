@@ -1,10 +1,6 @@
 package creational.factory_method.example;
 
 /*
- * Here we see the client making a call to the abstract Creator, 
- * which then uses the factoryMethod() 
- * to get a new instance of the ConcreteProduct, 
- * complete's the anOperation() method and completes.
  * 
  */
 public class Client {

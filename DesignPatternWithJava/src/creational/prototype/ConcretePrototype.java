@@ -1,6 +1,8 @@
 package creational.prototype;
 
-// Concrete Prototypes
+/*
+ *  Concrete Prototypes
+ */
 public class ConcretePrototype extends Prototype {
 	String name;
 

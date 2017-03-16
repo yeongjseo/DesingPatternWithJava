@@ -8,6 +8,5 @@ public class Client {
 			String server = balancer.getServer();
 			System.out.println("Dispatch Request to: " + server);
 		}
-
 	}
 }

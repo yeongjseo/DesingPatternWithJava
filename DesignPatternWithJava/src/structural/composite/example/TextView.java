@@ -1,9 +1,7 @@
 package structural.composite.example;
 
 /*
- * The Leaf has no children, 
- * and as such only needs to implement the operation method. 
- * 
+ * Leaf 
  */
 public class TextView extends View {
 	

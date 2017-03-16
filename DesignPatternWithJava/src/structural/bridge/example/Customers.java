@@ -1,5 +1,8 @@
 package structural.bridge.example;
 
+/*
+ * Bridge
+ */
 public class Customers {
     private Data data;
     private String group;
@@ -34,7 +37,4 @@ public class Customers {
 		System.out.println("Customer Group: " + group + " ----");
 		data.showAllRecords();
 	}
-	
-	
-
 }

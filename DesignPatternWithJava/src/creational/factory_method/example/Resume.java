@@ -1,7 +1,7 @@
 package creational.factory_method.example;
 
 /*
- * 
+ * ConcreteFactory 
  */
 public class Resume extends Document {
 

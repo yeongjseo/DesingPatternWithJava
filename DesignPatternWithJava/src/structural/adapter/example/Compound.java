@@ -1,12 +1,7 @@
 package structural.adapter.example;
 
 /*
- * The Adapter interface defines the domain specific interface 
- * that the Client used,
- *  
- * so the client collaborates with objects that implement the Adapter interface.
- * 
- * 
+ * Adapter 
  */
 public class Compound {
 	protected String compound;

@@ -1,8 +1,7 @@
 package creational.prototype.example;
 
 /*
- * the Prototype interface declares a method for cloning itself,
- * 
+ * Prototype
  */
 public abstract class ColorPrototype implements Cloneable {
 	public ColorPrototype clone() {

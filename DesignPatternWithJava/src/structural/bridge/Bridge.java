@@ -1,5 +1,8 @@
 package structural.bridge;
 
+/*
+ * Bridge
+ */
 public class Bridge {
     private Implementor implementor;
     public Bridge(Implementor implementor) {
