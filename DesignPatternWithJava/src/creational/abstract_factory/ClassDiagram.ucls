@@ -101,65 +101,69 @@
     </display>  
   </class>  
   <realization id="11">    
-    <end type="SOURCE" refId="8"/>    
+    <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="4"/>  
   </realization>  
   <dependency id="12">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <dependency id="13">    
-    <bendpoint x="691" y="743"/>    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="10"/>  
-  </dependency>  
-  <realization id="14">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
-  <dependency id="15">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <dependency id="16">    
-    <bendpoint x="68" y="82"/>    
-    <bendpoint x="71" y="591"/>    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <dependency id="17">    
     <bendpoint x="457" y="514"/>    
     <bendpoint x="200" y="512"/>    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <dependency id="18">    
+  <dependency id="13">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="16">    
     <bendpoint x="483" y="852"/>    
     <bendpoint x="202" y="857"/>    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
-  <realization id="19">    
+  <realization id="17">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
+  <realization id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <dependency id="19">    
+    <bendpoint x="68" y="82"/>    
+    <bendpoint x="71" y="591"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
   <realization id="20">    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="5"/>  
   </realization>  
   <realization id="21">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
   </realization>  
   <dependency id="22">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="23">    
     <bendpoint x="672" y="412"/>    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <realization id="23">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
+  <dependency id="24">    
+    <bendpoint x="691" y="743"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

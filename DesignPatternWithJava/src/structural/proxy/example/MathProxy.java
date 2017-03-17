@@ -1,11 +1,7 @@
 package structural.proxy.example;
 
 /*
- * the Proxy would handle the creation of the RealSubject object, 
- * but it will at least have a reference to it 
- * so that it can pass messages along.
- * 
- * 
+ * Proxy 
  */
 public class MathProxy implements IMath {
 	private IMath math = new Math();

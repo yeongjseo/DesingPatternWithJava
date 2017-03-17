@@ -1,8 +1,7 @@
 package structural.flyweight.example;
 
 /*
- * 
- * 
+ * ConcreteFlyweight 
  */
 public class CharacterB extends Character {
 

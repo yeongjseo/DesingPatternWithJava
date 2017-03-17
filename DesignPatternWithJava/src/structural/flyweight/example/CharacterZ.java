@@ -1,8 +1,6 @@
 package structural.flyweight.example;
 
 /*
- * 
- * 
  */
 public class CharacterZ extends Character {
 

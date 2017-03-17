@@ -12,6 +12,7 @@ public abstract class Character {
     protected int ascent;
     protected int descent;
     protected int pointSize;
-	
+    
+    // pointSize is extrinsic
 	public abstract void display(int pointSize);
 }

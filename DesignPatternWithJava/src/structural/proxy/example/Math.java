@@ -1,5 +1,8 @@
 package structural.proxy.example;
 
+/*
+ * ConcreteSubject
+ */
 public class Math implements IMath {
 
 	@Override

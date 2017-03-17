@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * 
+ * FlyweightFactory 
  */
 public class CharacterFactory {
 	String intrinsicData;
